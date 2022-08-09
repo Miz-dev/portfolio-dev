@@ -1,0 +1,36 @@
+import React from "react";
+import Link from "next/link";
+
+const NAV_ITEMS = [
+	{ href: "/about", label: "About" },
+	{ href: "/blog", label: "Blog" },
+	{ href: "/portfolio", label: "Portfolio" },
+	{ href: "/contact", label: "Contact" },
+];
+
+export const Header = () => {
+	return (
+		<header className="flex h-16 w-[992px] items-center justify-between">
+			<div>
+				<Link href="/">
+					<a>
+						<h1 className="font-sans text-lg font-bold">
+							Shimabu IT University
+						</h1>
+					</a>
+				</Link>
+			</div>
+			<nav className="font-sans font-bold">
+				{NAV_ITEMS.map((item) => {
+					return (
+						<Link key={item.href} href={item.href}>
+							<a className="inline-block py-5 px-2 text-lg hover:text-blue-500 focus:text-blue-500 active:text-blue-500">
+								{item.label}
+							</a>
+						</Link>
+					);
+				})}
+			</nav>
+		</header>
+	);
+};
