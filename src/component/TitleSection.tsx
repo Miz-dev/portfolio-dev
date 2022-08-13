@@ -3,7 +3,7 @@ import React from "react";
 
 export const TitleSection = () => {
 	return (
-		<div className="w-full bg-pink-600 py-20">
+		<section className="mb-20 w-full bg-pink-600 py-20">
 			<div className="mx-auto flex w-[992px] items-center justify-between">
 				<div>
 					<p className="mb-2 text-4xl font-bold text-white">
@@ -72,6 +72,6 @@ export const TitleSection = () => {
 					</Link>
 				</div>
 			</div>
-		</div>
+		</section>
 	);
 };
