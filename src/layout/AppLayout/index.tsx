@@ -4,6 +4,7 @@ import { Header } from "src/layout/AppLayout/Header";
 import { TitleSection } from "src/component/TitleSection";
 import { BlogSection } from "src/component/BlogSection";
 import { PortfolioSection } from "src/component/PortfolioSection";
+import { GithubSection } from "src/component/GithubSection";
 
 export const AppLayout = (props: any) => {
 	return (
@@ -12,7 +13,10 @@ export const AppLayout = (props: any) => {
 			<TitleSection />
 			<BlogSection />
 			<PortfolioSection />
-			{props.children}
+			<div className="flex">
+				<GithubSection />
+			</div>
+			{/* {props.children} */}
 			<Footer />
 		</div>
 	);
