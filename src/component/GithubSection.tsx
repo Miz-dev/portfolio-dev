@@ -5,12 +5,12 @@ import React from "react";
 
 export const GithubSection = () => {
 	return (
-		<section className="mx-auto mb-24">
+		<section className="mb-24 mr-10 items-stretch">
 			<h2 className="mb-6 border-b border-gray-200 pb-5 text-left text-2xl font-bold">
 				GitHub
 			</h2>
 			<ul>
-				<li className="mb-8">
+				<li className="mb-10">
 					<h3 className="mb-2 text-lg">lightsound/nexst-tailwind</h3>
 					<p className="mb-2">Next.js starter template.</p>
 					<div className="flex items-center">
@@ -100,7 +100,7 @@ export const GithubSection = () => {
 						</div>
 					</div>
 				</li>
-				<li className="mb-8">
+				<li className="mb-10">
 					<h3 className="mb-2 text-lg">lightsound/nexst-tailwind</h3>
 					<p className="mb-2">Next.js starter template.</p>
 					<div className="flex items-center">
@@ -190,7 +190,7 @@ export const GithubSection = () => {
 						</div>
 					</div>
 				</li>
-				<li className="mb-8">
+				<li className="mb-10">
 					<h3 className="mb-2 text-lg">lightsound/nexst-tailwind</h3>
 					<p className="mb-2">Next.js starter template.</p>
 					<div className="flex items-center">
@@ -280,7 +280,7 @@ export const GithubSection = () => {
 						</div>
 					</div>
 				</li>
-				<li className="mb-8">
+				<li className="mb-10">
 					<h3 className="mb-2 text-lg">lightsound/nexst-tailwind</h3>
 					<p className="mb-2">Next.js starter template.</p>
 					<div className="flex items-center">
@@ -370,7 +370,7 @@ export const GithubSection = () => {
 						</div>
 					</div>
 				</li>
-				<li className="mb-8">
+				<li className="mb-10">
 					<h3 className="mb-2 text-lg">lightsound/nexst-tailwind</h3>
 					<p className="mb-2">Next.js starter template.</p>
 					<div className="flex items-center">
