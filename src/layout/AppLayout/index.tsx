@@ -5,6 +5,7 @@ import { TitleSection } from "src/component/TitleSection";
 import { BlogSection } from "src/component/BlogSection";
 import { PortfolioSection } from "src/component/PortfolioSection";
 import { GithubSection } from "src/component/GithubSection";
+import { TwitterSection } from "src/component/TwitterSection";
 
 export const AppLayout = (props: any) => {
 	return (
@@ -13,8 +14,9 @@ export const AppLayout = (props: any) => {
 			<TitleSection />
 			<BlogSection />
 			<PortfolioSection />
-			<div className="flex">
+			<div className="mx-auto flex w-[992px]">
 				<GithubSection />
+				<TwitterSection />
 			</div>
 			{/* {props.children} */}
 			<Footer />
