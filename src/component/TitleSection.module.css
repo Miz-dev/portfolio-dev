@@ -1,0 +1,6 @@
+.titleSectionWrap {
+	width: 100vw;
+	margin: 0 calc(50% - 50vw);
+	background: #e64980;
+	margin-bottom: 80px;
+}

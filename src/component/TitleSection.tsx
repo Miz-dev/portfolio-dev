@@ -1,10 +1,11 @@
 import Link from "next/link";
 import React from "react";
+import classes from "./TitleSection.module.css";
 
 export const TitleSection = () => {
 	return (
-		<section className="mb-20 w-full bg-pink-600 py-20">
-			<div className="mx-auto flex w-[992px] items-center justify-between">
+		<section className={classes.titleSectionWrap}>
+			<div className="mx-auto flex w-[992px] items-center justify-between py-20">
 				<div>
 					<p className="mb-2 text-4xl font-bold text-white">
 						Shimabu IT University
