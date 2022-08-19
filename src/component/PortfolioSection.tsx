@@ -61,7 +61,9 @@ export const PortfolioSection = () => {
 			</ul>
 			<div className="text-center">
 				<button className="rounded-full bg-black px-5 py-2 text-white">
-					View All
+					<Link href={"/portfolio"}>
+						<a>View All</a>
+					</Link>
 				</button>
 			</div>
 		</section>

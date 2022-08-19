@@ -51,7 +51,9 @@ export const BlogSection = () => {
 			</ul>
 			<div className="text-center">
 				<button className="rounded-full bg-black px-5 py-2 text-white">
-					View All
+					<Link href={"blog"}>
+						<a>View All</a>
+					</Link>
 				</button>
 			</div>
 		</section>

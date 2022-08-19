@@ -5,7 +5,7 @@ import React from "react";
 
 export const GithubSection = () => {
 	return (
-		<section className="mb-24 mr-10 items-stretch">
+		<section className="mb-24 mr-10 flex w-1/2 flex-col justify-between">
 			<h2 className="mb-6 border-b border-gray-200 pb-5 text-left text-2xl font-bold">
 				GitHub
 			</h2>
@@ -463,7 +463,9 @@ export const GithubSection = () => {
 			</ul>
 			<div className="text-center">
 				<button className="rounded-full bg-black px-5 py-2 text-white">
-					View on GitHub
+					<Link href={"/"}>
+						<a>View on GitHub</a>
+					</Link>
 				</button>
 			</div>
 		</section>

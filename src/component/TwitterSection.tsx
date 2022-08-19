@@ -5,7 +5,7 @@ import React from "react";
 
 export const TwitterSection = () => {
 	return (
-		<section className="mb-24 ml-20">
+		<section className="mb-24 ml-20 w-1/2">
 			<h2 className="mb-6 border-b border-gray-200 pb-5 text-left text-2xl font-bold">
 				Twitter
 			</h2>
@@ -94,7 +94,9 @@ export const TwitterSection = () => {
 			</ul>
 			<div className="text-center">
 				<button className="rounded-full bg-black px-5 py-2 text-white">
-					View on Twitter
+					<Link href={"/"}>
+						<a>View on Twitter</a>
+					</Link>
 				</button>
 			</div>
 		</section>
