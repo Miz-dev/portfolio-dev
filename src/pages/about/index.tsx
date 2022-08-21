@@ -1,11 +1,10 @@
 import React from "react";
+import { Title } from "src/component/Title";
 
 export const About = () => {
 	return (
 		<section className="mb-24 mt-10 w-[992px]">
-			<h2 className="mb-6 border-b border-gray-200 pb-5 text-left text-2xl font-bold">
-				About
-			</h2>
+			<Title>About</Title>
 			<h3 className="text-bold mb-6 text-xl">Lightsound Shimabu </h3>
 			<p>
 				ITエンジニアYouTuber。神戸大学経営学部卒。未経験から独学でプログラミングを勉強し、新卒でヤフーに入社。2019年に株式会社GameHintを創業。

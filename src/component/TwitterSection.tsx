@@ -2,13 +2,12 @@ import Image from "next/image";
 import twitter_thumbnail from "src/asset/images/twitter_thumbnail.png";
 import React from "react";
 import { Button } from "src/component/Button";
+import { Title } from "src/component/Title";
 
 export const TwitterSection = () => {
 	return (
 		<section className="mb-24 ml-20 w-1/2">
-			<h2 className="mb-6 border-b border-gray-200 pb-5 text-left text-2xl font-bold">
-				Twitter
-			</h2>
+			<Title>Twitter</Title>
 			<ul>
 				<li className="mb-14 flex">
 					<div className="mr-4 w-10">

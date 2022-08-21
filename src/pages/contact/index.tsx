@@ -1,11 +1,10 @@
 import React from "react";
+import { Title } from "src/component/Title";
 
 export const Contact = () => {
 	return (
 		<section className="mb-24 mt-10 w-[992px]">
-			<h2 className="mb-6 border-b border-gray-200 pb-5 text-left text-2xl font-bold">
-				Contact
-			</h2>
+			<Title>Contact</Title>
 			<p className="mb-1 text-sm font-semibold">Email</p>
 			<input
 				className="mb-7 w-full rounded-sm border border-gray-400 p-2"
