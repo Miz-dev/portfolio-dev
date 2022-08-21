@@ -1,7 +1,7 @@
 import Image from "next/image";
 import portfolio_thumbnail from "src/asset/images/portfolio_thumbnail.png";
-import Link from "next/link";
 import React from "react";
+import { Button } from "src/component/Button/Button";
 
 export const PortfolioSection = () => {
 	return (
@@ -60,11 +60,7 @@ export const PortfolioSection = () => {
 				</li>
 			</ul>
 			<div className="text-center">
-				<button className="rounded-full bg-black px-5 py-2 text-white">
-					<Link href={"/portfolio"}>
-						<a>View All</a>
-					</Link>
-				</button>
+				<Button>View All</Button>
 			</div>
 		</section>
 	);

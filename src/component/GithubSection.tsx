@@ -1,7 +1,7 @@
 import Image from "next/image";
 import github_bar from "src/asset/images/github_bar.png";
-import Link from "next/link";
 import React from "react";
+import { Button } from "src/component/Button/Button";
 
 export const GithubSection = () => {
 	return (
@@ -462,11 +462,7 @@ export const GithubSection = () => {
 				</li>
 			</ul>
 			<div className="text-center">
-				<button className="rounded-full bg-black px-5 py-2 text-white">
-					<Link href={"/"}>
-						<a>View on GitHub</a>
-					</Link>
-				</button>
+				<Button>View on GitHub</Button>
 			</div>
 		</section>
 	);

@@ -1,5 +1,6 @@
 import Link from "next/link";
 import React from "react";
+import { Button } from "src/component/Button/Button";
 
 export const BlogSection = () => {
 	return (
@@ -70,11 +71,7 @@ export const BlogSection = () => {
 				</li>
 			</ul>
 			<div className="text-center">
-				<button className="rounded-full bg-black px-5 py-2 text-white">
-					<Link href={"blog"}>
-						<a>View All</a>
-					</Link>
-				</button>
+				<Button>View All</Button>
 			</div>
 		</section>
 	);

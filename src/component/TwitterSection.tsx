@@ -1,7 +1,7 @@
 import Image from "next/image";
 import twitter_thumbnail from "src/asset/images/twitter_thumbnail.png";
-import Link from "next/link";
 import React from "react";
+import { Button } from "src/component/Button/Button";
 
 export const TwitterSection = () => {
 	return (
@@ -93,11 +93,7 @@ export const TwitterSection = () => {
 				</li>
 			</ul>
 			<div className="text-center">
-				<button className="rounded-full bg-black px-5 py-2 text-white">
-					<Link href={"/"}>
-						<a>View on Twitter</a>
-					</Link>
-				</button>
+				<Button>View on Twitter</Button>
 			</div>
 		</section>
 	);
