@@ -1,7 +1,7 @@
 import Image from "next/image";
 import portfolio_thumbnail from "src/asset/images/portfolio_thumbnail.png";
 import React from "react";
-import { Button } from "src/component/Button/Button";
+import { Button } from "src/component/Button";
 
 export const PortfolioSection = () => {
 	return (

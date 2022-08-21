@@ -1,7 +1,7 @@
 import Image from "next/image";
 import github_bar from "src/asset/images/github_bar.png";
 import React from "react";
-import { Button } from "src/component/Button/Button";
+import { Button } from "src/component/Button";
 
 export const GithubSection = () => {
 	return (

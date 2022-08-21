@@ -1,7 +1,7 @@
 import Image from "next/image";
 import twitter_thumbnail from "src/asset/images/twitter_thumbnail.png";
 import React from "react";
-import { Button } from "src/component/Button/Button";
+import { Button } from "src/component/Button";
 
 export const TwitterSection = () => {
 	return (

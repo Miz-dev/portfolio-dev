@@ -1,6 +1,6 @@
 import Link from "next/link";
 import React from "react";
-import { Button } from "src/component/Button/Button";
+import { Button } from "src/component/Button";
 
 export const BlogSection = () => {
 	return (
