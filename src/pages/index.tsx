@@ -11,7 +11,7 @@ const Home: NextPage = (props) => {
 			<TitleSection />
 			<BlogSection />
 			<PortfolioSection />
-			<div className="mx-auto w-[992px] md:flex">
+			<div className="mx-auto w-full px-4 md:flex lg:mb-24 lg:w-[992px] lg:px-0">
 				<GithubSection />
 				<TwitterSection />
 			</div>
