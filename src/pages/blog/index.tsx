@@ -5,7 +5,7 @@ import { Title } from "src/component/Title";
 
 export const Blog = () => {
 	return (
-		<section className="mb-24 mt-10 w-[992px]">
+		<section className="mx-auto mt-10 mb-16 w-full px-4 lg:mb-24 lg:w-[992px] lg:px-0">
 			<Title>Blog</Title>
 			<ul>
 				<li className="mb-6">
