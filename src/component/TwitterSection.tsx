@@ -6,11 +6,11 @@ import { Title } from "src/component/Title";
 
 export const TwitterSection = () => {
 	return (
-		<section className="mb-24 ml-20 w-1/2">
+		<section className="mb-16 w-full md:ml-20 md:mb-24 md:w-1/2">
 			<Title>Twitter</Title>
 			<ul>
 				<li className="mb-14 flex">
-					<div className="mr-4 w-10">
+					<div className="mr-4 min-w-[38px]">
 						<Image src={twitter_thumbnail} alt="" />
 					</div>
 					<div>
@@ -37,7 +37,7 @@ export const TwitterSection = () => {
 					</div>
 				</li>
 				<li className="mb-14 flex">
-					<div className="mr-4 w-10">
+					<div className="mr-4 min-w-[38px]">
 						<Image src={twitter_thumbnail} alt="" />
 					</div>
 					<div>
@@ -64,7 +64,7 @@ export const TwitterSection = () => {
 					</div>
 				</li>
 				<li className="mb-14 flex">
-					<div className="mr-4 w-10">
+					<div className="mr-4 min-w-[38px]">
 						<Image src={twitter_thumbnail} alt="" />
 					</div>
 					<div>
