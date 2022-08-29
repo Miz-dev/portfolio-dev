@@ -6,7 +6,7 @@ import { Title } from "src/component/Title";
 
 export const GithubSection = () => {
 	return (
-		<section className="mb-24 mr-10 flex w-1/2 flex-col justify-between">
+		<section className="mb-16 mr-10 flex w-full flex-col md:mb-24 md:w-1/2">
 			<Title>GitHub</Title>
 			<ul>
 				<li className="mb-10">
@@ -460,7 +460,7 @@ export const GithubSection = () => {
 					</div>
 				</li>
 			</ul>
-			<div className="text-center">
+			<div className="mt-auto text-center">
 				<Button>View on GitHub</Button>
 			</div>
 		</section>
