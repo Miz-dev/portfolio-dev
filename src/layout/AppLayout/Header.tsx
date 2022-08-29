@@ -11,7 +11,7 @@ const NAV_ITEMS = [
 
 export const Header = () => {
 	return (
-		<header className="mx-auto flex h-16 w-[992px] items-center justify-between">
+		<header className="mx-auto flex h-16 w-full max-w-[992px] items-center justify-center md:justify-between">
 			<div>
 				<Link href="/">
 					<a>
@@ -21,7 +21,7 @@ export const Header = () => {
 					</a>
 				</Link>
 			</div>
-			<nav className="flex items-center font-sans font-bold">
+			<nav className="hidden items-center font-sans font-bold md:flex">
 				{NAV_ITEMS.map((item) => {
 					return (
 						<Link key={item.href} href={item.href}>
