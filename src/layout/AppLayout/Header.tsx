@@ -11,7 +11,7 @@ const NAV_ITEMS = [
 
 export const Header = () => {
 	return (
-		<header className="mx-auto flex h-16 w-full max-w-[992px] items-center justify-center md:justify-between">
+		<header className="mx-auto flex h-16 w-full max-w-[992px] items-center justify-center px-4 md:justify-between lg:px-0">
 			<div>
 				<Link href="/">
 					<a>
