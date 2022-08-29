@@ -3,14 +3,13 @@ import React from "react";
 import { FacebookIcon } from "src/component/Icon/FacebookIcon";
 import { RssIcon } from "src/component/Icon/Rss";
 import { TwitterIcon } from "src/component/Icon/TwitterIcon";
-import classes from "./TitleSection.module.css";
 
 export const TitleSection = () => {
 	return (
-		<section className={classes.titleSectionWrap}>
-			<div className="mx-auto flex w-[992px] items-center justify-between py-20">
-				<div>
-					<p className="mb-2 text-4xl font-bold text-white">
+		<section className="mb-10 w-full bg-[#e64980] md:mb-20">
+			<div className="mx-auto w-full items-center justify-between px-4 pt-14 pb-16 md:flex md:py-20 lg:w-[992px] lg:px-0">
+				<div className="mb-10 md:mb-0">
+					<p className="mb-1 text-[28px] font-bold text-white md:mb-2 md:text-4xl">
 						Shimabu IT University
 					</p>
 					<p className="text-4 text-white">
