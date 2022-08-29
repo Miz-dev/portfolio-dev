@@ -1,14 +1,13 @@
 import Image from "next/image";
 import github_bar from "src/asset/images/github_bar.png";
-import Link from "next/link";
 import React from "react";
+import { Button } from "src/component/Button";
+import { Title } from "src/component/Title";
 
 export const GithubSection = () => {
 	return (
-		<section className="mb-24 mr-10 flex w-1/2 flex-col justify-between">
-			<h2 className="mb-6 border-b border-gray-200 pb-5 text-left text-2xl font-bold">
-				GitHub
-			</h2>
+		<section className="mb-16 mr-10 flex w-full flex-col md:mb-24 md:w-1/2">
+			<Title>GitHub</Title>
 			<ul>
 				<li className="mb-10">
 					<h3 className="mb-2 text-lg">lightsound/nexst-tailwind</h3>
@@ -461,12 +460,8 @@ export const GithubSection = () => {
 					</div>
 				</li>
 			</ul>
-			<div className="text-center">
-				<button className="rounded-full bg-black px-5 py-2 text-white">
-					<Link href={"/"}>
-						<a>View on GitHub</a>
-					</Link>
-				</button>
+			<div className="mt-auto text-center">
+				<Button>View on GitHub</Button>
 			</div>
 		</section>
 	);

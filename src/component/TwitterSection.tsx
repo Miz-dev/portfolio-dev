@@ -1,17 +1,16 @@
 import Image from "next/image";
 import twitter_thumbnail from "src/asset/images/twitter_thumbnail.png";
-import Link from "next/link";
 import React from "react";
+import { Button } from "src/component/Button";
+import { Title } from "src/component/Title";
 
 export const TwitterSection = () => {
 	return (
-		<section className="mb-24 ml-20 w-1/2">
-			<h2 className="mb-6 border-b border-gray-200 pb-5 text-left text-2xl font-bold">
-				Twitter
-			</h2>
+		<section className="mb-16 w-full md:ml-20 md:mb-24 md:w-1/2">
+			<Title>Twitter</Title>
 			<ul>
 				<li className="mb-14 flex">
-					<div className="mr-4 w-10">
+					<div className="mr-4 min-w-[38px]">
 						<Image src={twitter_thumbnail} alt="" />
 					</div>
 					<div>
@@ -38,7 +37,7 @@ export const TwitterSection = () => {
 					</div>
 				</li>
 				<li className="mb-14 flex">
-					<div className="mr-4 w-10">
+					<div className="mr-4 min-w-[38px]">
 						<Image src={twitter_thumbnail} alt="" />
 					</div>
 					<div>
@@ -65,7 +64,7 @@ export const TwitterSection = () => {
 					</div>
 				</li>
 				<li className="mb-14 flex">
-					<div className="mr-4 w-10">
+					<div className="mr-4 min-w-[38px]">
 						<Image src={twitter_thumbnail} alt="" />
 					</div>
 					<div>
@@ -93,11 +92,7 @@ export const TwitterSection = () => {
 				</li>
 			</ul>
 			<div className="text-center">
-				<button className="rounded-full bg-black px-5 py-2 text-white">
-					<Link href={"/"}>
-						<a>View on Twitter</a>
-					</Link>
-				</button>
+				<Button>View on Twitter</Button>
 			</div>
 		</section>
 	);

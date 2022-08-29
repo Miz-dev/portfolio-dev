@@ -1,12 +1,12 @@
 import Link from "next/link";
 import React from "react";
+import { Button } from "src/component/Button";
+import { Title } from "src/component/Title";
 
 export const BlogSection = () => {
 	return (
-		<section className="mx-auto mb-24 w-[992px]">
-			<h2 className="mb-6 border-b border-gray-200 pb-5 text-left text-2xl font-bold">
-				Blog
-			</h2>
+		<section className="mx-auto mb-16 w-full px-4 lg:mb-24 lg:w-[992px] lg:px-0">
+			<Title>Blog</Title>
 			<ul>
 				<li className="mb-6">
 					<Link href={`/blog`}>
@@ -70,11 +70,7 @@ export const BlogSection = () => {
 				</li>
 			</ul>
 			<div className="text-center">
-				<button className="rounded-full bg-black px-5 py-2 text-white">
-					<Link href={"blog"}>
-						<a>View All</a>
-					</Link>
-				</button>
+				<Button>View All</Button>
 			</div>
 		</section>
 	);
