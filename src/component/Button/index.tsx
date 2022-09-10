@@ -1,16 +1,11 @@
-import React, { ReactNode } from "react";
+import React from "react";
 import Link from "next/link";
 
-type ButtonProps = {
-	children: ReactNode;
-};
-
-export const Button = (props: ButtonProps) => {
+export const Button = (props: any) => {
 	const { children } = props;
-
 	return (
 		<button className="rounded-full bg-black px-5 py-2 text-white">
-			<Link href={""}>
+			<Link href={"blog"}>
 				<a>{children}</a>
 			</Link>
 		</button>
